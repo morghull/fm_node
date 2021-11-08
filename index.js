@@ -2,6 +2,8 @@
 
 const { MyMath } = require("./js/MyMath");
 const { Component } = require("./js/Component");
+const { path } = require("path");
+
 
 console.log("hi!");
 
