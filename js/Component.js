@@ -1,1 +1,0 @@
-exports.Component = 1;

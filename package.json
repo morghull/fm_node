@@ -1,7 +1,7 @@
 {
   "name": "fm_node",
-  "version": "0.0.1",
-  "description": "My first project with npm",
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,11 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/morghull/fm_node.git"
   },
-  "keywords": [
-    "npm",
-    "node"
-  ],
-  "author": "morghull",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/morghull/fm_node/issues"
