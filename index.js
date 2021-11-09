@@ -1,6 +1,7 @@
 'use strict';
 
-const fs = require('fs/promises', 'utf-8');
+const fs = require('fs/promises');
+const {Component} = require('./js/Component');
 
 fs.readFile('./text.txt', { encoding: 'utf-8' }).then(
   (file) => {
@@ -9,3 +10,4 @@ fs.readFile('./text.txt', { encoding: 'utf-8' }).then(
     });
   }
 );
+console.log(Component);
