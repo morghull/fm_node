@@ -1,5 +1,6 @@
 const cache = new Map();
 
+
 export const pow = (base, exp) => {
   const key = `${base}_${exp}`;
   if (cache.has(key)) return cache.get(key);
