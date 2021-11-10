@@ -1,8 +1,11 @@
 import './style.css';
 import Component from './Component';
+import secret, * as MyMath from './math';
+import { pow } from './math';
 
-console.log('test1');
-const resultOfSumTwoNumber = 5 + 3;
-console.log(resultOfSumTwoNumber);
+const resultOfPow = MyMath.pow(5, 3);
+const resultOfPow1 = pow(5, 3);
+console.log(resultOfPow);
 const comp = new Component(12);
-console.log('test2');
+console.log(comp.render());
+console.log(secret);
